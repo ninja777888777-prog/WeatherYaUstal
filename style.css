@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(./Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: 'Mullish';
+    src: url(./Mulish-Italic-VariableFont_wght.ttf);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+body {
+    font-family: 'Inter';
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    background-color: rgba(142, 45, 226, 1);
+    background-image: linear-gradient(135deg, rgba(142, 45, 226, 1) 0%, rgba(74, 0, 224, 1) 100%);
+    background-size: 100% 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+.top_subtitle{
+    color: rgba(255, 255, 255, 0.5);
+    display: center;
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 300;
+    font-style: light;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 18vw;
+
+}
+.Prime_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather__temperature{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1;
+}
+.subtitle{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #FFFFFFCC
+}
+.change__city{
+    font-family: "Mullish";
+    cursor: pointer;
+    color: #FFFFFF80;
+    margin-top: 36px;
+    text-decoration: underline;
+}
+.change__city:hover{
+    color: #ffffff9e;
+}
